@@ -1,0 +1,14 @@
+{
+  "db": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "user": "",
+    "password": "",
+    "db_name": "syllabus"
+  },
+  "mini": {
+    "appid": "wx0edd2436970134f3",
+    "appSecret": "3a0af1910a2b1819b492173434a2e1a7",
+    "template_id": "JJgqPghzGYDIB3wLWSXFBGmcwPi0XjlZo8exljwF9po"
+  }
+}

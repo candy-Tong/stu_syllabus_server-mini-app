@@ -1,0 +1,51 @@
+{
+  "classes": [
+    {
+      "class_schedule": [
+        {
+          "original_time": "67AB",
+          "day_in_week": 4,
+          "weeks": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "time": [
+            [
+              6,
+              7
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "notic": [
+            6,
+            11
+          ]
+        }
+      ],
+      "credit": 1.0,
+      "from_credit_system": true,
+      "id": "95787",
+      "year": "2017-2018",
+      "semester": 1,
+      "code": "ADE6007A",
+      "name": "男士形象礼仪",
+      "room": "D座304",
+      "teacher": "李可贤",
+      "member": [
+        "15cthuang"
+      ],
+      "notifyMember":[
+        "15cthuang"
+      ]
+    }
+  ]
+}
