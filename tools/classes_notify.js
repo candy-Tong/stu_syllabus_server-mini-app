@@ -38,7 +38,7 @@ function get_access_token () {
     access_token = res.access_token
     setTimeout(function () {
       get_access_token()
-    }, 7000 * 3600)
+    }, 7000 * 1000)
   })
 }
 
@@ -55,9 +55,16 @@ function Schedule_Send_Notice () {
     let semester = status.getSemester()
     let week = status.getWeek()
     let nextClass = status.getNextClassNum().time
-    // let nextClass = 1
-    let weekNum = new Date().getUTCDay()
+    let nexHourClass = status.getNextHourClassNum().time
+    // let nextClass = 8
+    let weekNum = new Date().getDay()
     // let weekNum = 2
+
+    if (nextClass === nexHourClass) {
+      console.log(nextClass+' --- '+nexHourClass)
+      console.log('\t未到提醒时间\n')
+      return
+    }
     fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', '周数: ' + week + '\t', {flag: 'a'})
     fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', '星期: ' + weekNum + '\t', {flag: 'a'})
     fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', '下一节课: ' + nextClass + '\n', {flag: 'a'})
@@ -88,73 +95,87 @@ function Schedule_Send_Notice () {
         console.log(err)
         return
       }
-      console.log(res)
+      // console.log(res)
       if (res.length === 0) {
         fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', '没有需要提醒的课程' + '\n', {flag: 'a'})
       }
 
-      console.log(res[0])
+      // console.log(res[0])
       // 遍历需要提醒的课程组合
       res.forEach(function (lesson) {
-        // 提醒的课程写入日志
-
-        fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', lesson._id + '\t', {flag: 'a'})
-        fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', lesson.name + '\n', {flag: 'a'})
 
         // 查找出需要提醒的用户的 openid 和 对应的 formId
         formIdModel.find({'account': {$in: lesson.account}, 'showNotify': true}, '', '', '', function (users_formId) {
           // console.log(users_formId)
+          // 提醒的课程写入日志
+          fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', lesson._id + '\t', {flag: 'a'})
+          fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', lesson.name + '\n', {flag: 'a'})
 
-          users_formId.forEach(function (value) {
-            let openId = value.openId
+          if (users_formId.length > 0) {
+            users_formId.forEach(function (value) {
+              // 提醒的用户写入日志
+              fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', value.account + '\t', {flag: 'a'})
+              let openId = value.openId
 
-            let curTime = new Date().getTime()
-            let form_id = value.form_id_list.find(function (formId) {
-              return formId['deadline'] > curTime
-            })
-            if (form_id) {
-              curl.postJSON('https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=' + access_token,
-                {
-                  'touser': openId,
-                  'template_id': template_id,
-                  'form_id': form_id.form_id,
-                  'data': {
-                    'keyword1': {
-                      'value': lesson.name,
-                      'color': '#173177'
-                    },
-                    'keyword2': {
-                      'value': changeTime(lesson.class_schedule.times, nextClass),
-                      'color': '#173177'
-                    },
-                    'keyword3': {
-                      'value': decodeURI(lesson.room),
-                      'color': '#173177'
-                    },
-                    'keyword4': {
-                      'value': decodeURI(lesson.teacher),
-                      'color': '#173177'
+              let curTime = new Date().getTime()
+              let form_id = value.form_id_list.find(function (formId) {
+                return formId['deadline'] > curTime
+              })
+              if (form_id) {
+                curl.postJSON('https://api.weixin.qq.com/cgi-bin/message/wxopen/template/send?access_token=' + access_token,
+                  {
+                    'touser': openId,
+                    'template_id': template_id,
+                    'form_id': form_id.form_id,
+                    'data': {
+                      'keyword1': {
+                        'value': lesson.name,
+                        'color': '#173177'
+                      },
+                      'keyword2': {
+                        'value': changeTime(lesson.class_schedule.times, nextClass),
+                        'color': '#173177'
+                      },
+                      'keyword3': {
+                        'value': decodeURI(lesson.room),
+                        'color': '#173177'
+                      },
+                      'keyword4': {
+                        'value': decodeURI(lesson.teacher),
+                        'color': '#173177'
+                      }
                     }
-                  }
-                },
-                function (res) {
-                  console.log(res)
-                  fs.writeFileSync(global['PATH']['LOG'] + '/notice.log', value.account + '\t', {flag: 'a'})
-
-                  // 删除已经使用的formId,和过期的formId
-                  let deleteList = value.form_id_list.filter(function (formId) {
-                    return formId['deadline'] <= curTime
-                  })
-                  deleteList.push(form_id.form_id)
-                  formIdModel.update({'openId': openId}, {$pull: {'form_id_list': {'form_id': {$in: deleteList}}}}, '', function (res) {
+                  },
+                  function (res) {
                     console.log(res)
+                    if(res.errcode===0){
+                      // 删除已经使用的formId,和过期的formId
+                      let deleteList = value.form_id_list.filter(function (formId) {
+                        return formId['deadline'] <= curTime
+                      })
+                      deleteList.push(form_id.form_id)
+                      formIdModel.update({'openId': openId}, {$pull: {'form_id_list': {'form_id': {$in: deleteList}}}}, '', function (res) {
+
+                        if (!res) {
+                          console.log('删除formId失败')
+                        }
+                      })
+                    }else {
+                      console.log('发送模板消息失败')
+                    }
+
+
                   })
 
-                })
-            } else {
-              console.log('该用户form_id 不足')
-            }
-          })
+              } else {
+                console.log('该用户form_id 不足，openid：' + openId)
+              }
+            })
+
+            // 日志格式控制
+            fs.writeFileSync(global['PATH']['LOG'] + '\n', {flag: 'a'})
+
+          }
         })
       })
 

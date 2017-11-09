@@ -1,0 +1,1544 @@
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'I00Yhjdcwz1pPH-0TXHPtxKz7Tfy1jz_lXOe-NvQnAqpuvLc1unpYvzes3MP26CZFN2ZURtZUATKBcGZ5gc2MkvDESzDfUYBF6iTNfDMVXAOAJgr3m7iOfts1s1QjMMsAHObADAOVC',
+  expires_in: 7200 }
+[ { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+6
+[ { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+6
+
+
+
+{ ERROR: 'credit system broken' }
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+{ access_token: 'Xyeq0PVw8P6Aq9S1KmjMXm7aJyC-RElUSafK70nSvU5Tq0IJDAZkIZajYL4aVoUeTl8XCuBVUMj7ca3wsEb8LHIu3f7bFhL1FI537BIDu4n9Tmey9pEHpypJpHqwqf0DLJYhACAAYN',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+课程提醒时间，准备写入日志文件
+{ errcode: 0, errmsg: 'ok' }
+{ errcode: 0, errmsg: 'ok' }
+{ access_token: 'XYycMvl5mZv-AoIdBOpGN2RwzDDT3ZxDd_iN06LWE1XflgiyHE2KRO4Jl-O_PrODQa280OUE09dVPorYreK3ieWmwoDol8BEpobNwGtV7vWkpfqVl_WulNFc64EgJ7YHFZRhAJAPJB',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'SOf_5N0TJOOL61hvh7VChANr7OGFKSgwX4GAuJPXWnzBNfkv9UNJrypLeD2H1mfdyInmafsnAd_Kt29VinZ13gDNF18bnFuhtq5OdaD19PcUWCaADAJLR',
+  expires_in: 7200 }
+[]
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'SOf_5N0TJOOL61hvh7VChANr7OGFKSgwX4GAuJPXWnxdq6sNN2p-V9hc1ffpdRLCX2qMxyYF1Ev53ydeTckdSUyB6xrp9EmqCRZ_pzMyZGMGJPaADALOU',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'SOf_5N0TJOOL61hvh7VChANr7OGFKSgwX4GAuJPXWnz-WhqPSeAU1k2JBILlC8eYbTiqqn-5EWsz9ghic4ozYkFVqDmoSzyoBlr2yBVQgCsOGSaADAKCO',
+  expires_in: 7200 }
+Error:undefined
+Error:undefined
+课程提醒时间，准备写入日志文件
+课程提醒时间，准备写入日志文件
+undefined --- undefined
+	未到提醒时间
+
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+{ access_token: 'pC5nPUVlC_vQHro4DnOVXzv7L9127fhyNiF4SMQQOmnDtEsLB6Z_5SV4rv0uBsXcBFIQdeXpUTMQ71kclnvzm1DmgaTWA2x34JgD79zaOxrcJDQvOZP8Sah8UEKBXeiXOSReAJASWV',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+undefined --- undefined
+	未到提醒时间
+
+课程提醒时间，准备写入日志文件
+undefined --- undefined
+	未到提醒时间
+
+{ access_token: '2iH_0WtlceGoI91Ybbr5slBeq4PlLrgibCmCsrDsWGl493dP5x1mufx2FZ4OnYUQhWt4VGRKwSrLKt6wOdGuu6TCEc1YpBMBwm7AJlnQid-GN90yUPGQhupSNe27aTLoCPTiAAAFSW',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+
+
+
+{ ERROR: 'credit system broken' }
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+{ access_token: 'ENs4yLaF6PnFe5nlzIspjbAwTWYZONtNc05JuULfmin_Bcy__ATju6oj80co0AluAn47NwH6aJyPsA08SPX0esvsu0n0YHTovbyBf-ngit0kY_vr2lqe3uYcET5GXUMIGEMcAEALJR',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'Av2jcGL2Tyj1Rby_xl3GZdMqE9wiowjhjMSb3I9t02Y0ZKJZBy8gZugK0OctO3anih7l1t-3bhmlQBxKLvv0go06aIKU47gEetIv24Numta8di6xbuFuT7FObmcXW_jZXUDjACACZI',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'Av2jcGL2Tyj1Rby_xl3GZdMqE9wiowjhjMSb3I9t02acubdei8y3PofGdyc46RX43o_a73RbZk6skV4hOVoY8WvTiPysurNWl6MDIcLzk_COgV_fWbu_TeqxKFKtXiGdXIPjACATEL',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+{ access_token: 'zEV84ekTXAPnpQldvQAEokjhMsCp23-dZ_XCx4nIqzB_cyzXZtTDbMNl1o0q6qhBEA3o4jZGaF_42FjvOTlgr1ufkZIhmnBx9lzdDniM8GbcV_qsSK8QGxeH1SuP08BfOWLiAJAUCR',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+课程提醒时间，准备写入日志文件
+1 --- 1
+	未到提醒时间
+
+{ access_token: 'BXGcAGDIRqOt-w_LK7RRzRkXkUogg7yrh755DOaPQVKSTPJLym2wIqAwcW-WzGk_fITo73lg1XvFmA6mar7N9FAz4YXQhbUuuFOZZMyvaenljp43wJ4JVCcw0rO1OuixJTJiAIAZJZ',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+Error:the password is wrong
+
+15ytli3 
+
+{ ERROR: 'the password is wrong' }
+Error:the password is wrong
+
+15ytli3 
+Eatin970105
+[ { teacher: '张杰/林艺文(实验)',
+    from_credit_system: true,
+    id: '89025',
+    class_schedule: [ [Object], [Object] ],
+    name: '[CST2103A]计算机组织与体系结构I',
+    duration: '1-16',
+    room: '讲堂三',
+    credit: '4.0' },
+  { teacher: '廖海泳',
+    from_credit_system: true,
+    id: '89158',
+    class_schedule: [ [Object] ],
+    name: '[CST2202A]计算机图形学',
+    duration: '1-16',
+    room: 'E308',
+    credit: '2.0' },
+  { teacher: '孙浩军',
+    from_credit_system: true,
+    id: '89024',
+    class_schedule: [ [Object] ],
+    name: '[CST2304A]离散数学II',
+    duration: '1-16',
+    room: 'D座504',
+    credit: '2.0' },
+  { teacher: '方晓生/陈征(实验)',
+    from_credit_system: true,
+    id: '88833',
+    class_schedule: [ [Object], [Object] ],
+    name: '[EEG2053A]电工电子学',
+    duration: '1-11',
+    room: 'E306',
+    credit: '4.0' },
+  { teacher: 'Handoyo Puji Widodo',
+    from_credit_system: true,
+    id: '87432',
+    class_schedule: [ [Object], [Object] ],
+    name: '[ELC3]英语(ELC3)',
+    duration: '1-16',
+    room: 'G座401',
+    credit: '4.0' },
+  { teacher: '杨忠强',
+    from_credit_system: true,
+    id: '87557',
+    class_schedule: [ [Object], [Object], [Object] ],
+    name: '[MAT2001A]数学分析I',
+    duration: '3-16',
+    room: 'D座504',
+    credit: '5.0' },
+  { teacher: '白文君',
+    from_credit_system: true,
+    id: '88276',
+    class_schedule: [ [Object] ],
+    name: '[SOC6130B]思想道德修养与法律基础（道德）',
+    duration: '1-16',
+    room: 'E301',
+    credit: '2.0' },
+  { teacher: '高庆荣',
+    from_credit_system: true,
+    id: '88305',
+    class_schedule: [ [Object] ],
+    name: '[SOC6140A]中国近现代史纲要',
+    duration: '1-16',
+    room: 'E308',
+    credit: '2.0' } ]
+{ access_token: '_duVl50lRiWjQq1Q5Mmxc2bGnqxWi_gNkKMuCkLp7MAyRE9BIdrDHXKRUI4Sm2vulZVzRdPrmMxC40mmMevfd6baFlrKZT7IkJz6xyxk3IOXFo7ct7KG1M25CTECzqRDWOBaAJAMER',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+课程提醒时间，准备写入日志文件
+{ errcode: 0, errmsg: 'ok' }
+{ errcode: 0, errmsg: 'ok' }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'MrX5BJD2f7KBOjCW--7A9nrej5QK7caNFIig1_mucmcUJhHAQ4qEIgq703BRoRGzpP8DdIpEompCxg2Gud2mky_nTf19lGatOYllpGDWe9sWj4dKGuYiaYLRmE0V4qIgTYHdAAAWBK',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '6tVOqkIdzfa3cUPTezQayiLEFKmzgsvlvf43bpR5a0mhQ9PPn6QfeVUNWZ_Esu9S1NLr98FqdFuatcGgqEYDVfkmA0wcHtSY-s-nxWcKSE7SCGPBggBFWrdrUjKijBgYHGLfADAMLQ',
+  expires_in: 7200 }
+[ { name: '当代中国与世界认识方法（网络课程）',
+    class_id: '97415',
+    showNotify: false },
+  { name: '古希腊的思想世界（网络课程）', class_id: '97420', showNotify: false } ]
+connection success
+connection success
+connection success
+connection success
+{ access_token: '6tVOqkIdzfa3cUPTezQayiLEFKmzgsvlvf43bpR5a0kkAuuvJvhvu_2sDK7gHkd0-QsdfM4zgiNNbQhD8DtixJoDSvuvXqMIxevbrZkX_K0QjAuDjDUTSGLGgvm87D3_MDNfADAQHR',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: '_duVl50lRiWjQq1Q5Mmxc6SXw7ZzZII7O4_CXvK9_hoS1AhD0p11hGBEcLH7uk9d99o2ZqtdBd3h-rnIUxCaugzwXvuQEWtqK6lpgPGLWoXiZgSX1dO4MtFgm3StiQtiYWKaADASQE',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+课程提醒时间，准备写入日志文件
+6 --- 6
+	未到提醒时间
+
+{ access_token: '829C7dpHcXjH4X593sofZyYRRYWjiBDG870qDlyQnqzU-cMZ_Ziglmbddc9rAnUxpH10CwvnZSv0p56OF8apjmzV-19fM9mgcbBhrMq3A-gaU3VhmL-h5FRpSAYDkmGQRTAbAIAMOV',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+Error:undefined
+课程提醒时间，准备写入日志文件
+{ errcode: 0, errmsg: 'ok' }
+Error:the password is wrong
+
+17hnliang
+LHn88866576
+[]
+
+17hnliang
+LHn88866576
+[]
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+
+15jxli3
+Ljx71729503
+[ { teacher: '姚秋莉',
+    from_credit_system: true,
+    id: '87412',
+    class_schedule: [ [Object], [Object] ],
+    name: '[ELC2]英语(ELC2)',
+    duration: '1-16',
+    room: 'D座203',
+    credit: '4.0' },
+  { teacher: '刘建良',
+    from_credit_system: true,
+    id: '87563',
+    class_schedule: [ [Object], [Object] ],
+    name: '[MAT2801A]高等微积分',
+    duration: '1-16',
+    room: '讲堂五',
+    credit: '4.0' },
+  { teacher: '林小苹',
+    from_credit_system: true,
+    id: '87565',
+    class_schedule: [ [Object], [Object] ],
+    name: '[MAT2802A]概率论与数理统计（工科）',
+    duration: '1-16',
+    room: '讲堂二',
+    credit: '3.0' },
+  { teacher: '程西云/陈跃涛(实验)',
+    from_credit_system: true,
+    id: '88720',
+    class_schedule: [ [Object], [Object] ],
+    name: '[MEC2103A]互换性与测量技术基础',
+    duration: '1-8',
+    room: 'E307',
+    credit: '2.0' },
+  { teacher: '牛小东',
+    from_credit_system: true,
+    id: '88714',
+    class_schedule: [ [Object] ],
+    name: '[MEC2201A]理论力学',
+    duration: '1-16',
+    room: '讲堂二',
+    credit: '3.0' },
+  { teacher: '陈严/陈跃涛(实验)',
+    from_credit_system: true,
+    id: '88716',
+    class_schedule: [ [Object] ],
+    name: '[MEC2203A]工程热力学',
+    duration: '1-14',
+    room: 'E208',
+    credit: '2.0' },
+  { teacher: '崔岩/陈征(实验)',
+    from_credit_system: true,
+    id: '88718',
+    class_schedule: [ [Object] ],
+    name: '[MEC2301A]电工电子技术Ⅰ',
+    duration: '1-16',
+    room: 'D座406',
+    credit: '2.0' },
+  { teacher: '贺明生',
+    from_credit_system: true,
+    id: '88268',
+    class_schedule: [ [Object] ],
+    name: '[SOC6110A]马克思主义基本原理',
+    duration: '1-16',
+    room: 'E305',
+    credit: '3.0' },
+  { teacher: '高庆荣',
+    from_credit_system: true,
+    id: '88304',
+    class_schedule: [ [Object] ],
+    name: '[SOC6140A]中国近现代史纲要',
+    duration: '1-16',
+    room: 'E401',
+    credit: '2.0' } ]
+Error:the password is wrong
+
+17zhliao3
+134679zhL
+[]
+{ access_token: 'mUmTkGWPNBdrMnp6lDMG6HDt9X7xpVE41a6TfRh2lzjssDKTP3Yn_MSXS-rCIZHGv_ELO6ZbZxpKRIqTilB19QsDWT2xQQV-49LKYZCVyvLI9VlDPA16LwNpvu0forufJNDcAIACGW',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '256PKhKmtE9iB64oLSxWDjMslRO2UxWFa-PdQutqDS6EnR17wjh5b8cNc3dGMSxD8Wd-exrwILEY4qu8U3gcDRNJkYXaSCtCTwZ7VNMMdMo6DxT4VUZqTLXGc4md1vVUOUScAEARXV',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: '2NX6OCiHpanL_Th8ZVsFiiKjzllR2p_WQ1gtaB7yN7YgdLGA538QT6qNjhomPTeB5zoWnGx1SSvoBManaedjaDMmP8CORGRWZeaIJx2A2teDfC8HqwDwKolwHXMpdnZ8ILTbAEACFN',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+{ errcode: 0, errmsg: 'ok' }
+{ errcode: 0, errmsg: 'ok' }
+{ errcode: 0, errmsg: 'ok' }
+课程提醒时间，准备写入日志文件
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+
+16xytan2
+ABCtxu371998
+{ ERROR: 'the password is wrong' }
+
+16xytan2
+ABCtxy371998
+[ { teacher: '刘大伟',
+    from_credit_system: true,
+    id: '90666',
+    class_schedule: [ [Object] ],
+    name: '[AED6098A]欧洲浪漫主义时期音乐赏析',
+    duration: '1-16',
+    room: '讲堂六',
+    credit: '2.0' },
+  { teacher: '黄淑芬/孙金峰/王雨函',
+    from_credit_system: true,
+    id: '88553',
+    class_schedule: [ [Object], [Object] ],
+    name: '[CIS6031A]汕大整合思维',
+    duration: '1-16',
+    room: 'E402/讲堂一',
+    credit: '2.0' },
+  { teacher: '谢晓雯',
+    from_credit_system: true,
+    id: '87485',
+    class_schedule: [ [Object], [Object] ],
+    name: '[ELC1031A]Level 1 English for English Majors',
+    duration: '1-16',
+    room: 'D座301',
+    credit: '4.0' },
+  { teacher: '刘劲飞',
+    from_credit_system: true,
+    id: '88494',
+    class_schedule: [ [Object] ],
+    name: '[ENG1101A]Integrated English I',
+    duration: '1-16',
+    room: 'D座407',
+    credit: '3.0' },
+  { teacher: '蔡宗翰',
+    from_credit_system: true,
+    id: '88496',
+    class_schedule: [ [Object] ],
+    name: '[ENG1201A]English Composition I',
+    duration: '1-16',
+    room: 'D座407',
+    credit: '2.0' },
+  { teacher: '文兵',
+    from_credit_system: true,
+    id: '88499',
+    class_schedule: [ [Object] ],
+    name: '[ENG1401A]English Pronunciation Enhancement',
+    duration: '1-16',
+    room: 'E506-语音教室',
+    credit: '2.0' },
+  { teacher: '王金杰',
+    from_credit_system: true,
+    id: '88197',
+    class_schedule: [ [Object] ],
+    name: '[PED1041A]羽毛球（1）',
+    duration: '1-16',
+    room: '羽毛球场（体育馆）',
+    credit: '1.0' },
+  { teacher: '程英姿',
+    from_credit_system: true,
+    id: '88266',
+    class_schedule: [ [Object] ],
+    name: '[SOC6110A]马克思主义基本原理',
+    duration: '1-16',
+    room: 'E305',
+    credit: '3.0' },
+  { teacher: '骆礼敏',
+    from_credit_system: true,
+    id: '90566',
+    class_schedule: [ [Object], [Object] ],
+    name: '[SOC6150B]毛泽东思想和中国特色社会主义理论体系概论',
+    duration: '1-16',
+    room: '讲堂三',
+    credit: '4.0' } ]
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+Error:undefined
+Error:the password is wrong
+Error:the password is wrong
+Error:the password is wrong
+Error:the password is wrong
+
+15mlyuan
+YMl5200
+[ { teacher: '张杰/林艺文(实验)',
+    from_credit_system: true,
+    id: '89025',
+    class_schedule: [ [Object], [Object] ],
+    name: '[CST2103A]计算机组织与体系结构I',
+    duration: '1-16',
+    room: '讲堂三',
+    credit: '4.0' },
+  { teacher: '廖海泳',
+    from_credit_system: true,
+    id: '89158',
+    class_schedule: [ [Object] ],
+    name: '[CST2202A]计算机图形学',
+    duration: '1-16',
+    room: 'E308',
+    credit: '2.0' },
+  { teacher: '孙浩军',
+    from_credit_system: true,
+    id: '89024',
+    class_schedule: [ [Object] ],
+    name: '[CST2304A]离散数学II',
+    duration: '1-16',
+    room: 'D座504',
+    credit: '2.0' },
+  { teacher: '方晓生/陈征(实验)',
+    from_credit_system: true,
+    id: '88833',
+    class_schedule: [ [Object], [Object] ],
+    name: '[EEG2053A]电工电子学',
+    duration: '1-11',
+    room: 'E306',
+    credit: '4.0' },
+  { teacher: '陈暖玲',
+    from_credit_system: true,
+    id: '87427',
+    class_schedule: [ [Object], [Object] ],
+    name: '[ELC3]英语(ELC3)',
+    duration: '1-16',
+    room: 'D座301',
+    credit: '4.0' },
+  { teacher: '陈姣龙',
+    from_credit_system: true,
+    id: '87562',
+    class_schedule: [ [Object], [Object] ],
+    name: '[MAT2801A]高等微积分',
+    duration: '1-16',
+    room: '讲堂四',
+    credit: '4.0' },
+  { teacher: '林小苹',
+    from_credit_system: true,
+    id: '87565',
+    class_schedule: [ [Object], [Object] ],
+    name: '[MAT2802A]概率论与数理统计（工科）',
+    duration: '1-16',
+    room: '讲堂二',
+    credit: '3.0' },
+  { teacher: '刘平',
+    from_credit_system: true,
+    id: '88153',
+    class_schedule: [ [Object] ],
+    name: '[PED1034A]普拉提(1)',
+    duration: '1-16',
+    room: '体操房（体育馆）',
+    credit: '1.0' } ]
+
+15mlyuan
+
+{ ERROR: 'the password is wrong' }
+Error:undefined
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'vrAXmt7RpC8JiaqRG3ce9jBcCxtNN7dCuVl_fbcYrHPkMHTfMeoD5SNIZf04KuoxHMHELRw05pXSqRsYnfvYyhuNi6_VFC3Gh0ZUCcEPGYIuWg1lywjE1Yc8dXmmj_t7UOQjAJACWY',
+  expires_in: 7200 }
+[ { version: '1.0.16',
+    date: '2017.11.8',
+    content: [ [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.15',
+    date: '2017.11.4',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.13',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.12',
+    date: '2017.10.19',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.11',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.8',
+    date: '2017.10.17',
+    content: [ [Object], [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' },
+  { version: '1.0.5',
+    date: '2017.10.16',
+    content: [ [Object], [Object] ],
+    app: '汕大课程表',
+    ahthod: '糖糖爱学习' } ]
+7
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'vrAXmt7RpC8JiaqRG3ce9jBcCxtNN7dCuVl_fbcYrHNFWHRdwBi9anl9lHMIWUU4hzoxVulGDmKvw-gsMOhVJwQubTlybZd1p2e2-DTFxFlkv0S1G65XOjUEHciTQcs9CDZjAJAJKG',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'vrAXmt7RpC8JiaqRG3ce9jBcCxtNN7dCuVl_fbcYrHNc1699rzEnFh-jb3mvt_Hap9cUhHnINTiywTZjBp_22q410rWVsptetbtYrMdUpaFNoT7BejljsvjXPSRwIMDLPPDjAJAWWK',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '75dtoras70ViK16fBgrFFaZud-VGhJ5QMIoM-Go-epLQRqtHl51tgnk2ghYio6_v3Sm-aBGKdMjrYSdQl1GuyCmh_ZGjSyM-VJUIqFjKZyUEPgt0rEDfzU0RwnRrlZngUDOeAFAYHS',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '75dtoras70ViK16fBgrFFaZud-VGhJ5QMIoM-Go-epLqrWevfpk4fg0r4YbGPDzfvLoIHTbQY77Xd0Vi3Ffv4-Hf9YrxrcRN53rlFnUdKs8PIbVOhSaK6vBzVXXmjmxvFUJeAFAWLA',
+  expires_in: 7197 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '75dtoras70ViK16fBgrFFaZud-VGhJ5QMIoM-Go-epKoSzUMbBfdkHTGBCZH3hVj7pVsqyqBuMMox-FFbPgk2EvCQJo17smmXsgMu8zxwLI-m8oxAmhhTBM2R8ZCGEs0LFVeAFAAUK',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: '75dtoras70ViK16fBgrFFaZud-VGhJ5QMIoM-Go-epIjmNbeLGG8ArPh00t6255sZYHd0fIbIa5nMatuIxIpeZR8GfrIJ6_9B-eIGyLeSo6gKsMPugY0Ak2Itqu6uE7uXZYeAFAGIH',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'C-OwShE0zjvO7hn0YLccWyNa8HPMPPXxjzufPdPRu1Rf1pPfRiUZKxjgc5TEunM2moU948_t5xoMYwOPAG5A5HWPTwqWyuOL9o_rXDwMew6fMrYgDH857PJxCOzX0sLxVXViAJACEC',
+  expires_in: 7200 }
+课程提醒时间，准备写入日志文件
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZJqEs4MwN02rbr9fmgLgN06iFMz3rKbtq7WZG4q3nt4zdVLI6i5O8IJZXwjFZAuZvZh75VN1os0Dwth8SQv-g_dCYPdABAFBS',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: false } ]
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZIH5iOtmRgyvccg7Xiu7MPEI3TEstGpSYGjmXJrYnKiXHKVuzG3C-Xx-TfIIny2FYRA41CAaJlmnyeJJpI6GAcvOREdABAXAN',
+  expires_in: 7196 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZIOZjUZOBqQg-TGUtXAlOia8UuokhYviWX0FNrVEDg97DH7Z95AaUCS_lnMLp0esa7kNy0j7Hw2QVEfACT9xWg4XNHdABADTN',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZJe4YUPsHgH6uVcUNBY8oUcmou4tT57M-i-SpfQkd4OkyliS9qVhCDZ7pGf_vwhOFL9hq9AB3KEKHY7T21ZSdG6BIEdABAXEA',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZJb5t7_rSN_q76JsMts-w84l6ddZZeZDE3QpfYkvG2CXe6w3VQJug8zIDlr5JtUkgQALn-WNFL8nYwhzIdVEsuEAVKdABAPKZ',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'cz13_0CFffzYhiLd_pObqLQ0fWn1NcNBlvqu6_u48ZIC7xonPeuy0oVT3GXd7W4UMLY_qkM8YL3dQeLvRIK4GL9JXvQXdxQIkuk3H4pbK9n86iwuJOVKLGQBHBo_4F76ZXOdABAQOF',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy9fG4_1--mFyFR_3iX3M-gGjycJkgR9WmriwN7wc9Pe29vAUbOgpA06dUmAC4ENsp1Wa_zi7RM9czLQbgoOy2xyIIAaAHAMME',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: false } ]
+95800
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy_ZJuUQlQtyH9M5RWrEMyVzM9ndy5ZzWDV4QLIQsr4eSwUI8vDTsIaUwCKxH3z7MYqzqLhy6WTtGooWITQTBYJbFRVaAHAJVZ',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy_xonBrIyqrFtMNauayiiFFxE-EWmSEb9T4V9ty90wK73W1DcnU9V2RkooUZgnnwNJStsD37UAKuSsbD-GhIQWcESEaAHAZNZ',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: '15mlyuan' } ]
+95800
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy83hIxrfUwFD7VUK2h2R9eY86umktN289A4yvgzy4Wvr09eCRUqwbx-uD-ruHsxd8DScEoAQZPLwqI2rOidYlfdMHEaAHAVQN',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: false } ]
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy9MT-iNUge_RsYuU15f78foD6f-vN46nDNrK0wlEY-vLbuEzfpfF-1MzkykEV05kUdFLPSkRNYmvV1p2j2ndssVDZXaAHAUQO',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: false } ]
+95800
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'jxNNVUlK-etN1PL0kwMoAcEQeKcJqs3bM0ceal5_Cy-MeC_uSnS3SSiXFJufPZ1on_T1trDZhpc72qPXR3n3MCViMBkxBnwWuxDc6OrzuSNRcpH0xeVtVT6Detsu5waSGZAaAHAATU',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'ggKKppqchlvk6wP901XY1rGwEqROrCkAmLxbZYIjkQjP3V2oVZrxc0cEY0NR0rEvPuR5plzl0jZ9l_BWtgYnE3cnoIo6vKBvKEY6aamT1fGPdfWx4hIWugxRndVeWaKcIGYcAAABZR',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypReOwFvj3tBxQRGyvwOVJYaIaKaj-nsGzzKJgD9ZyH0oUDCxHTWpJP1iMAC7dUc2TBs4tkSPrGMzcuFBFEplM5RV4GHLhAFALMQ',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypRePPV-iXuwZIUH4tAu49d0EOOPpe90v_hy3WTtOvzL2M8zP2zy9C0uJUWoG8VLG-OEn1ilka30s0zHKj8mNPnYF3KHGhAFAPML',
+  expires_in: 7198 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypReOPmoCIO4cOihdqii005y1cO-IUG-1-kMiiu8HO6UgM361Gh9sy24AlvBuA7443BhyLDWCk9Wfhk8n6JqOIxsvZZGUhAFAMTH',
+  expires_in: 7197 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）', class_id: '95339', showNotify: false },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: false },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: '15mlyuan' } ]
+95339
+96959
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypReOI8H7OcO-KCb2MtY0SHxUotbb8nE0E4eIBdKTQQFRYiEL18qtohXrQdKW-F4hBSAeVwqpDDteoJ6PjMm9mCug_SSUhAFAWWY',
+  expires_in: 7200 }
+[ { name: '智能系统', class_id: '96733', showNotify: false },
+  { name: 'Android编程与嵌入式系统', class_id: '96734', showNotify: false },
+  { name: '软件工程', class_id: '96726', showNotify: false },
+  { name: '操作系统原理', class_id: '96729', showNotify: false },
+  { name: '编译原理', class_id: '96961', showNotify: false },
+  { name: '计算方法', class_id: '96723', showNotify: false },
+  { name: '软件质量与测试', class_id: '96732', showNotify: false },
+  { name: '健美操', class_id: '96295', showNotify: false },
+  { name: '音乐基本素养（五线谱与简谱）',
+    class_id: '95339',
+    showNotify: '15mlyuan' },
+  { name: '桥梁建筑的伦理与美学', class_id: '96959', showNotify: '15mlyuan' },
+  { name: '生物多样性与人类福祉', class_id: '95800', showNotify: '15mlyuan' } ]
+95339
+96959
+95800
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypReMTtfZ_nr8NXr6Q1LR2Yhu2NBl2DtDTeE_xkggO4xNklWnpk78c7zA5eARdC_oXpY4AhpazDS_h2d2QrhoATPpJZMPhAFAGTW',
+  expires_in: 7200 }
+connection success
+connection success
+connection success
+connection success
+{ access_token: 'K-SxAhz7-BW4_eYp791m96kQkhFoyTfJJXbR3GypReMiSID4IUX3gmGWYCooqjwQfk3J3TIr4lm_3_bR_6SRz8ze9TYaE1fS_pyQidryDIwTY-II_gyFhVaM6rpCTf-GLLWhAFACCN',
+  expires_in: 7200 }
+[ { name: '男士形象礼仪', class_id: '95787', showNotify: '15cthuang' },
+  { name: '树莓及Arduino数字系统分析',
+    class_id: '96735',
+    showNotify: '15cthuang' },
+  { name: '智能系统', class_id: '96733', showNotify: '15cthuang' },
+  { name: 'Android编程与嵌入式系统',
+    class_id: '96734',
+    showNotify: '15cthuang' },
+  { name: '软件工程', class_id: '96726', showNotify: '15cthuang' },
+  { name: '操作系统原理', class_id: '96729', showNotify: '15cthuang' },
+  { name: '英语(ELC4)', class_id: '95503', showNotify: '15cthuang' },
+  { name: '乒乓球（1）', class_id: '95973', showNotify: '15cthuang' },
+  { name: '编译原理', class_id: '96961', showNotify: '15cthuang' },
+  { name: '当代中国与世界认识方法（网络课程）',
+    class_id: '97415',
+    showNotify: false } ]

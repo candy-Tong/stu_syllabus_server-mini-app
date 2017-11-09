@@ -197,7 +197,7 @@ class BaseModelClass {
   }
 
   filterSelfRow (rowInfo) {
-    console.log(rowInfo)
+    // console.log(rowInfo)
     if (rowInfo['_id']) {
       rowInfo['id'] = rowInfo['_id']
       delete rowInfo['_id']

@@ -2,7 +2,7 @@ let express = require('express')
 let router = express.Router()
 let curl = require(global.PATH['TOOLS'] + '/curl')
 let config = require(global.PATH['TOOLS'] + '/config')
-let status=require(global.PATH['TOOLS']+'/status')
+let status = require(global.PATH['TOOLS'] + '/status')
 
 // 登录
 let ERROR_OTHER = 0
@@ -16,14 +16,13 @@ let ERROR_PASSWORD = 5
 let ERROR_DATABASE_FIND = 1000
 let ERROR_DATABASE_INSERT = 1001
 
-
 /**
  * wx.login 后自动调用，用户无感
  * 返回token
  * token 用户凭证
  */
 router.get('/first', function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})//设置response编码为utf-8
+  response.setHeader('Content-Type', 'text/html;charset=utf-8')
   let error_msg = ''
   let error_code
   let js_code = request.query.js_code
@@ -40,7 +39,7 @@ router.get('/first', function (request, response) {
           'error_code': ERROR_IN_OPENID
         }))
       }
-      console.log(result)
+      // console.log(result)
       let BaseModelClass = require(global.PATH['MODEL'] + '/baseModel')
       let userModel = new BaseModelClass('users')
       let token
@@ -63,7 +62,7 @@ router.get('/first', function (request, response) {
                 semester: 1,
                 submit: 'query',
               }, function (res) {
-                console.log(res)
+                console.log('Error:' + res.ERROR)
                 if (res.ERROR) {
                   if (res.ERROR === 'the password is wrong') {
                     error_msg = '密码已修改'
@@ -161,7 +160,7 @@ router.get('/first', function (request, response) {
 })
 
 router.get('/auto_login', function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})//设置response编码为utf-8
+  response.setHeader('Content-Type', 'text/html;charset=utf-8')
   let token = request.query.token
   let BaseModelClass = require(global.PATH['MODEL'] + '/baseModel')
   let users = new BaseModelClass('users')
@@ -170,7 +169,7 @@ router.get('/auto_login', function (request, response) {
   let week = status.getWeek()
   users.find({'token': token}, '', '', {}, function (user) {
     if (user !== false) {
-      console.log(user)
+      // console.log(user)
       if (user.length === 1) {
 
         curl.post('https://stuapps.com/credit/api/v2/sync_syllabus', {

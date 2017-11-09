@@ -25,23 +25,19 @@ router.get('/form_id', function (req, res) {
         // 已存在token
         openId = users[0].openId
         let formIdModel = new BaseModelClass('formId')
-        formIdModel.update({openId: openId}, {
+        formIdModel.update({'account': users[0].account}, {
           '$push': {'form_id_list': {'form_id': form_id, 'deadline': deadline}},
-          '$set': {'openId': openId, 'account': users[0].account}
+          '$set': {'openId': openId,'account': users[0].account},
+          '$inc': {'click_num': 1}
         }, {'upsert': true}, function (obj) {
           if (obj) {
-            formIdModel.aggregate([{$unwind: '$form_id_list'}, {
-              $group: {
-                _id: '$account',
-                count: {$sum: 1}
-              }
-            }, {$sort: {count: -1}}, {$limit: 1}], function (err, user) {
+            formIdModel.aggregate([{$sort: {click_num: -1}}, {$limit: 1}], function (err, user) {
               user = user[0]
               res.end(JSON.stringify({
                 is_error: false,
                 result: {
-                  max_account: user._id,
-                  max_num: user.count
+                  max_account: user.account,
+                  max_num: user.click_num
                 }
               }))
             })
@@ -69,7 +65,7 @@ router.get('/form_id', function (req, res) {
 
 // 课程提醒总开关
 router.get('/showNotify', function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})//设置response编码为utf-8
+  res.setHeader('Content-Type', 'text/html;charset=utf-8')
   let account = req.query.account
   let showNotify = req.query.showNotify === 'true'
   if (!account) {
@@ -86,11 +82,12 @@ router.get('/showNotify', function (req, res) {
     }))
     return
   }
-  formIdModel.update({account: account}, {$set: {showNotify: showNotify}}, '', function (bool) {
+  formIdModel.update({account: account}, {$set: {showNotify: showNotify}}, {upsert: true}, function (bool) {
     if (!bool) {
+      console.log('更新formId失败')
       res.end(JSON.stringify({
         is_error: true,
-        error_msg: '查询不到用户formId，或者查询到重复用户formId'
+        error_msg: '更新formId失败'
       }))
       return
     }
@@ -102,23 +99,20 @@ router.get('/showNotify', function (req, res) {
 
 // 查询formId数量
 router.get('/notify_num', function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})//设置response编码为utf-8
+  res.setHeader('Content-Type', 'text/html;charset=utf-8')
   let account = req.query.account
   formIdModel.find({'account': account}, '', '', '', function (users_formId) {
-    if (users_formId.length > 1) {
+    if (users_formId.length !== 1) {
+      res.status(400)
       res.end(JSON.stringify({
         is_error: true,
-        error_msg: '或者查询到重复用户formId'
+        error_msg: '查询不到或者查询到重复用户formId'
       }))
       return
     }
-    formIdModel.aggregate([{$unwind: '$form_id_list'}, {
-      $group: {
-        _id: '$account',
-        count: {$sum: 1}
-      }
-    }, {$sort: {count: -1}}, {$limit: 1}], function (err, user) {
+    formIdModel.aggregate([{$sort: {click_num: -1}}, {$limit: 1}], function (err, user) {
       if (!user || user.length !== 1) {
+
         res.end(JSON.stringify({
           is_error: true,
           error_msg: '查询不到用户，或者查询到重复用户'
@@ -129,13 +123,14 @@ router.get('/notify_num', function (req, res) {
       if (users_formId) {
         users_formId = users_formId[0]
       }
-      console.log(users_formId)
+      // console.log(users_formId)
       res.end(JSON.stringify({
         is_error: false,
         result: {
           notify_num: users_formId && users_formId.form_id_list ? users_formId.form_id_list.length : 0,
-          max_account: user._id,
-          max_num: user.count
+          click_num: users_formId.click_num ? users_formId.click_num : 0,
+          max_account: user.account,
+          max_num: user.click_num
         }
       }))
     })
@@ -144,27 +139,28 @@ router.get('/notify_num', function (req, res) {
 })
 
 // 缓存课程
-router.get('/classes', function (req, res) {
+router.post('/classes', function (req, res) {
+  // console.log(req.body)
   // 参数检查
-  if (!req.query.classes) {
+  if (!req.body.classes) {
     res.end(JSON.stringify({
       'is_error': true,
       'error_msg': '没有课程'
     }))
     return
-  } else if (!req.query.account) {
+  } else if (!req.body.account) {
     res.end(JSON.stringify({
       'is_error': true,
       'error_msg': '没有账号'
     }))
     return
-  } else if (!req.query.year) {
+  } else if (!req.body.year) {
     res.end(JSON.stringify({
       'is_error': true,
       'error_msg': '没有学年'
     }))
     return
-  } else if (!req.query.semester) {
+  } else if (!req.body.semester) {
     res.end(JSON.stringify({
       'is_error': true,
       'error_msg': '没有学期'
@@ -172,10 +168,10 @@ router.get('/classes', function (req, res) {
     return
   }
 
-  let classes = JSON.parse(req.query.classes).classes
-  let account = req.query.account
-  let year = req.query.year
-  let semester = req.query.semester
+  let classes = JSON.parse(req.body.classes).classes
+  let account = req.body.account
+  let year = req.body.year
+  let semester = req.body.semester
 
   // let classesList=[]
   classes.forEach(function (singleClass) {
@@ -297,7 +293,7 @@ router.get('/updataClassesNotify', function (req, res) {
 
 // 获取用户所有课程提醒状态
 router.get('/getAllNotifyStatus', function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'})//设置response编码为utf-8
+  res.setHeader('Content-Type', 'text/html;charset=utf-8')
   let account = req.query.account
   classesModel.aggregate([
     {$unwind: '$member'},
@@ -310,7 +306,7 @@ router.get('/getAllNotifyStatus', function (req, res) {
     let notifyStatus = lessones.map(function (lesson) {
       let showNotify
       if (lesson.notifyMember) {
-        console.log(lesson.notifyMember)
+        // console.log(lesson.notifyMember)
         showNotify = lesson.notifyMember.find(function (value) {
           return value === account
         })

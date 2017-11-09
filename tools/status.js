@@ -18,7 +18,7 @@ let CLASSES_TIME = [
   },
   {
     time: 4,
-    begin: '11:55',
+    begin: '10:55',
     end: '11:40'
   },
   {
@@ -108,6 +108,26 @@ class statusClass {
   getNextClassNum () {
     let curTime = new Date()
     let hour = curTime.getHours()
+    let min = curTime.getMinutes()
+    let class_time = CLASSES_TIME.find(function (value) {
+      let [begin_hour, begin_min] = value['begin'].split(':')
+      begin_hour = Number(begin_hour)
+      begin_min = Number(begin_min)
+
+      if (hour < begin_hour) {
+        return true // 下一节课
+      } else if (hour > begin_hour) {
+        return false
+      } else {
+        return min < begin_min
+      }
+    })
+    return class_time ? class_time : 14
+  }
+
+  getNextHourClassNum () {
+    let curTime = new Date()
+    let hour = curTime.getHours() + 1
     let min = curTime.getMinutes()
     let class_time = CLASSES_TIME.find(function (value) {
       let [begin_hour, begin_min] = value['begin'].split(':')
